@@ -1,0 +1,147 @@
+input:focus {
+  outline: none;
+}
+
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.to-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #19647E;
+  color: #F2EFE9;
+}
+
+.inputcoin {
+  display: grid;
+  place-items: center;
+}
+
+img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 100px;
+  object-fit: contain;
+  margin: auto 0 0 15;
+}
+
+input {
+  background-color: #F2EFE9;
+  border: 0px solid;
+  border-radius: 8px;
+  width: 25vh;
+  height: 3ch; 
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+@media only screen and (min-width: 992px) {
+
+  
+  img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 200px;
+    object-fit: contain;
+    margin: auto 0 0 15;
+  }
+
+  input {
+    background-color: #F2EFE9;
+    border: 0px solid;
+    border-radius: 8px;
+    width: 25vh;
+    height: 3ch; 
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  }
+  
+}
+
+@media only screen and (min-width: 600px) {
+
+  img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 200px;
+    object-fit: contain;
+    margin: auto 0 0 15;
+  }
+
+  input {
+    background-color: #F2EFE9;
+    border: 0px solid;
+    border-radius: 8px;
+    width: 25vh;
+    height: 3ch; 
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+
+  img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 133px;
+    object-fit: contain;
+    margin: auto 0 0 15;
+  }
+
+  input {
+    background-color: #F2EFE9;
+    border: 0px solid;
+    border-radius: 8px;
+    width: 25vh;
+    height: 3ch; 
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  }
+}
+
+@media only screen and (max-width: 450px) { /*Para os boi q usa iphone 8 para trás*/
+
+  img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+    object-fit: contain;
+    margin: auto 0 -15% 0;
+  }
+
+  input {
+    background-color: #F2EFE9;
+    border: 0px solid;
+    border-radius: 8px;
+    width: 25vh;
+    height: 3ch; 
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+  }
+}
+
+
